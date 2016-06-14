@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, AudioState) {
 @property (nonatomic, strong) AVAudioRecorder *audioRecorder;// 音频录音机
 @property (nonatomic, strong) NSError *error;
 @property (nonatomic, strong) NSString *recordFilePath;
-@property (nonatomic, copy) void (^voiceProgressHandler) (CGFloat progress);
+@property (nonatomic, copy) void (^voiceProgressHandler) (double progress);
 @property (nonatomic, copy) void (^recordInterruptionHandler) (AudioEndType endType ,AVAudioRecorder *record);
 @property (nonatomic, strong) NSTimer *timer;// 定时器，用于刷新音量，没0.1秒刷新一次
 @property (nonatomic, assign) NSInteger recordTimeInterval;// 用于判断当前录音是否达到最大限制
