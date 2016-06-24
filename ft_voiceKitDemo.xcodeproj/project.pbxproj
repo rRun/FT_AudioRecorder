@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		506812C41D18E96100CC3F3F /* ProximitySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 506812C31D18E96100CC3F3F /* ProximitySensor.m */; };
 		507786D51D13DA1E00F9134D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 507786D41D13DA1E00F9134D /* main.m */; };
 		507786D81D13DA1E00F9134D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507786D71D13DA1E00F9134D /* AppDelegate.m */; };
 		507786DB1D13DA1E00F9134D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507786DA1D13DA1E00F9134D /* ViewController.m */; };
@@ -17,9 +16,11 @@
 		507786E61D13DA1E00F9134D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507786E41D13DA1E00F9134D /* LaunchScreen.storyboard */; };
 		507786F11D13DA1E00F9134D /* ft_voiceKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 507786F01D13DA1E00F9134D /* ft_voiceKitDemoTests.m */; };
 		507786FC1D13DA1E00F9134D /* ft_voiceKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 507786FB1D13DA1E00F9134D /* ft_voiceKitDemoUITests.m */; };
-		5077870C1D13DA5400F9134D /* VoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5077870B1D13DA5400F9134D /* VoiceController.m */; };
-		5077870F1D13DA6500F9134D /* VoiceRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5077870E1D13DA6500F9134D /* VoiceRecorder.m */; };
-		507787121D13DC1500F9134D /* VoicePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 507787111D13DC1500F9134D /* VoicePlayer.m */; };
+		EA0FAC791D1CCA81002EE8C1 /* ProximitySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC721D1CCA81002EE8C1 /* ProximitySensor.m */; };
+		EA0FAC7A1D1CCA81002EE8C1 /* VoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC741D1CCA81002EE8C1 /* VoiceController.m */; };
+		EA0FAC7B1D1CCA81002EE8C1 /* VoicePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC761D1CCA81002EE8C1 /* VoicePlayer.m */; };
+		EA0FAC7C1D1CCA81002EE8C1 /* VoiceRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC781D1CCA81002EE8C1 /* VoiceRecorder.m */; };
+		EA0FAC7F1D1CCB21002EE8C1 /* ft_voiceKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA0FAC7E1D1CCB21002EE8C1 /* ft_voiceKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		506812C21D18E96100CC3F3F /* ProximitySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximitySensor.h; sourceTree = "<group>"; };
-		506812C31D18E96100CC3F3F /* ProximitySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximitySensor.m; sourceTree = "<group>"; };
 		507786D01D13DA1E00F9134D /* ft_voiceKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ft_voiceKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507786D41D13DA1E00F9134D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		507786D61D13DA1E00F9134D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,12 +58,15 @@
 		507786F71D13DA1E00F9134D /* ft_voiceKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ft_voiceKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		507786FB1D13DA1E00F9134D /* ft_voiceKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ft_voiceKitDemoUITests.m; sourceTree = "<group>"; };
 		507786FD1D13DA1E00F9134D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5077870A1D13DA5400F9134D /* VoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceController.h; sourceTree = "<group>"; };
-		5077870B1D13DA5400F9134D /* VoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceController.m; sourceTree = "<group>"; };
-		5077870D1D13DA6500F9134D /* VoiceRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecorder.h; sourceTree = "<group>"; };
-		5077870E1D13DA6500F9134D /* VoiceRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecorder.m; sourceTree = "<group>"; };
-		507787101D13DC1500F9134D /* VoicePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoicePlayer.h; sourceTree = "<group>"; };
-		507787111D13DC1500F9134D /* VoicePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoicePlayer.m; sourceTree = "<group>"; };
+		EA0FAC711D1CCA81002EE8C1 /* ProximitySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProximitySensor.h; path = VoiceKit/ProximitySensor.h; sourceTree = SOURCE_ROOT; };
+		EA0FAC721D1CCA81002EE8C1 /* ProximitySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProximitySensor.m; path = VoiceKit/ProximitySensor.m; sourceTree = SOURCE_ROOT; };
+		EA0FAC731D1CCA81002EE8C1 /* VoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoiceController.h; path = VoiceKit/VoiceController.h; sourceTree = SOURCE_ROOT; };
+		EA0FAC741D1CCA81002EE8C1 /* VoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoiceController.m; path = VoiceKit/VoiceController.m; sourceTree = SOURCE_ROOT; };
+		EA0FAC751D1CCA81002EE8C1 /* VoicePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoicePlayer.h; path = VoiceKit/VoicePlayer.h; sourceTree = SOURCE_ROOT; };
+		EA0FAC761D1CCA81002EE8C1 /* VoicePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoicePlayer.m; path = VoiceKit/VoicePlayer.m; sourceTree = SOURCE_ROOT; };
+		EA0FAC771D1CCA81002EE8C1 /* VoiceRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoiceRecorder.h; path = VoiceKit/VoiceRecorder.h; sourceTree = SOURCE_ROOT; };
+		EA0FAC781D1CCA81002EE8C1 /* VoiceRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoiceRecorder.m; path = VoiceKit/VoiceRecorder.m; sourceTree = SOURCE_ROOT; };
+		EA0FAC7E1D1CCB21002EE8C1 /* ft_voiceKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ft_voiceKit.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +117,8 @@
 		507786D21D13DA1E00F9134D /* ft_voiceKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				507787091D13DA3400F9134D /* VoiceKit */,
+				EA0FAC7D1D1CCB09002EE8C1 /* VoiceSpec */,
+				EA0FAC701D1CCA73002EE8C1 /* VoiceKit */,
 				507786D61D13DA1E00F9134D /* AppDelegate.h */,
 				507786D71D13DA1E00F9134D /* AppDelegate.m */,
 				507786D91D13DA1E00F9134D /* ViewController.h */,
@@ -156,19 +159,27 @@
 			path = ft_voiceKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		507787091D13DA3400F9134D /* VoiceKit */ = {
+		EA0FAC701D1CCA73002EE8C1 /* VoiceKit */ = {
 			isa = PBXGroup;
 			children = (
-				5077870A1D13DA5400F9134D /* VoiceController.h */,
-				5077870B1D13DA5400F9134D /* VoiceController.m */,
-				5077870D1D13DA6500F9134D /* VoiceRecorder.h */,
-				5077870E1D13DA6500F9134D /* VoiceRecorder.m */,
-				507787101D13DC1500F9134D /* VoicePlayer.h */,
-				507787111D13DC1500F9134D /* VoicePlayer.m */,
-				506812C21D18E96100CC3F3F /* ProximitySensor.h */,
-				506812C31D18E96100CC3F3F /* ProximitySensor.m */,
+				EA0FAC711D1CCA81002EE8C1 /* ProximitySensor.h */,
+				EA0FAC721D1CCA81002EE8C1 /* ProximitySensor.m */,
+				EA0FAC731D1CCA81002EE8C1 /* VoiceController.h */,
+				EA0FAC741D1CCA81002EE8C1 /* VoiceController.m */,
+				EA0FAC751D1CCA81002EE8C1 /* VoicePlayer.h */,
+				EA0FAC761D1CCA81002EE8C1 /* VoicePlayer.m */,
+				EA0FAC771D1CCA81002EE8C1 /* VoiceRecorder.h */,
+				EA0FAC781D1CCA81002EE8C1 /* VoiceRecorder.m */,
 			);
-			path = VoiceKit;
+			name = VoiceKit;
+			sourceTree = "<group>";
+		};
+		EA0FAC7D1D1CCB09002EE8C1 /* VoiceSpec */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FAC7E1D1CCB21002EE8C1 /* ft_voiceKit.podspec */,
+			);
+			name = VoiceSpec;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 			files = (
 				507786E61D13DA1E00F9134D /* LaunchScreen.storyboard in Resources */,
 				507786E31D13DA1E00F9134D /* Assets.xcassets in Resources */,
+				EA0FAC7F1D1CCB21002EE8C1 /* ft_voiceKit.podspec in Resources */,
 				507786DE1D13DA1E00F9134D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,14 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				507787121D13DC1500F9134D /* VoicePlayer.m in Sources */,
-				5077870F1D13DA6500F9134D /* VoiceRecorder.m in Sources */,
+				EA0FAC7B1D1CCA81002EE8C1 /* VoicePlayer.m in Sources */,
 				507786E11D13DA1E00F9134D /* ft_voiceKitDemo.xcdatamodeld in Sources */,
-				506812C41D18E96100CC3F3F /* ProximitySensor.m in Sources */,
-				5077870C1D13DA5400F9134D /* VoiceController.m in Sources */,
 				507786DB1D13DA1E00F9134D /* ViewController.m in Sources */,
+				EA0FAC7A1D1CCA81002EE8C1 /* VoiceController.m in Sources */,
 				507786D81D13DA1E00F9134D /* AppDelegate.m in Sources */,
 				507786D51D13DA1E00F9134D /* main.m in Sources */,
+				EA0FAC7C1D1CCA81002EE8C1 /* VoiceRecorder.m in Sources */,
+				EA0FAC791D1CCA81002EE8C1 /* ProximitySensor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
