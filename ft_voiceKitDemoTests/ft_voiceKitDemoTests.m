@@ -1,18 +1,18 @@
 //
-//  AudioTests.m
-//  AudioTests
+//  ft_voiceKitDemoTests.m
+//  ft_voiceKitDemoTests
 //
-//  Created by 成都富顿科技－向乾操 on 16/6/14.
-//  Copyright © 2016年 FT. All rights reserved.
+//  Created by 成都富顿科技－向乾操 on 16/6/17.
+//  Copyright © 2016年 yxiang. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface AudioTests : XCTestCase
+@interface ft_voiceKitDemoTests : XCTestCase
 
 @end
 
-@implementation AudioTests
+@implementation ft_voiceKitDemoTests
 
 - (void)setUp {
     [super setUp];

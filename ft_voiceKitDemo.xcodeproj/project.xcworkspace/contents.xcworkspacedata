@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Audio/Audio.xcodeproj">
+      location = "self:ft_voiceKitDemo.xcodeproj">
    </FileRef>
 </Workspace>
